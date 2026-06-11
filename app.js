@@ -10,7 +10,7 @@ const GITHUB_REPO = (() => {
     const repo = location.pathname.split('/').filter(Boolean)[0];
     if (owner && repo) return 'https://github.com/' + owner + '/' + repo;
   }
-  return 'https://github.com/choate85/securessid';
+  return 'https://github.com/Choaterboater/securessid';
 })();
 
 const VENDOR_COLORS = {
